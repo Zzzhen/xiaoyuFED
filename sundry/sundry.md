@@ -2,6 +2,30 @@
 
 ## 编辑器配置
 
+### phpstorm sass配置
+ 
+首先安装ruby
+
+preference->file watcher下应该会自动配置好，若没配置好，请参照[这里](https://stackoverflow.com/questions/15760140/phpstorm-scss-file-watcher-settings)
+
+安装compass
+
+```javascript
+sudo gem install -n /usr/local/bin compass
+```
+
+然后在file watchers 下添加scss，配置arguments
+
+```
+--no-cache --update --style compressed $FileName$:$FileNameWithoutExtension$.css
+```
+
+output paths 配置
+```
+$FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map
+```
+
+
 ### sublime3插件
 
 1.安装node包
