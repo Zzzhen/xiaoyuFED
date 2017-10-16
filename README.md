@@ -6,7 +6,6 @@
 
 
 ## 版本信息
-:tada: :tada: :tada:
 <table>
     <tr>
         <th>版本</th>
