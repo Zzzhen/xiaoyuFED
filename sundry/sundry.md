@@ -114,5 +114,3 @@ SCSS-Lint [配置文件](http://alloyteam.github.io/CodeGuide/.scss-lint.yml)
     
     配置好后格式化的默认快捷键是 ctrl+shift+c
     
-    
-    176 2156 4001
