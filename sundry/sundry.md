@@ -25,6 +25,10 @@ output paths 配置
 $FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map
 ```
 
+### svn忽略文件
+首先添加css文件，其他文件 scss css.map 不要放入SVN控制
+
+svn st | awk '/^?/{print $2}' > svnignore.txt && svn propget svn:ignore >> svnignore.txt && svn propset svn:ignore -F svnignore.txt . && rm svnignore.txt
 
 ### sublime3插件
 
