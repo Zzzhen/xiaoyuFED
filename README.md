@@ -16,7 +16,7 @@
     <tr>
         <th>1.0</th>
         <th>Eli</th>
-        <th>17.10.13</th>
+        <th>17.11.4</th>
         <th>初次定稿发布</th>
     </tr>
 </table>
