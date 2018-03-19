@@ -10,7 +10,7 @@ preference->file watcher下应该会自动配置好，若没配置好，请参�
 
 安装compass
 
-```javascript
+```
 sudo gem install -n /usr/local/bin compass
 ```
 
@@ -23,6 +23,23 @@ sudo gem install -n /usr/local/bin compass
 output paths 配置
 ```
 $FileNameWithoutExtension$.css:$FileNameWithoutExtension$.css.map
+```
+
+### phpstorm js压缩配置
+ 
+安装uglify-js，一般放在/usr/local/bin/路径下，[参考](https://github.com/mishoo/UglifyJS2)
+```
+npm install uglify-js -g
+```
+然后配置file watchers
+
+```
+$FileName$ -m -r -o $FileNameWithoutExtension$.min.js
+```
+
+output paths 配置
+```
+$FileNameWithoutExtension$.min.js
 ```
 
 ### svn忽略文件
