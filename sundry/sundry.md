@@ -1,7 +1,20 @@
 # 杂项
 
-## 编辑器配置
+## 发布版本配置
 
+### sass去除sourcemap调试
+
+配置arguments
+
+```
+--sourcemap=none --no-cache --update --style compressed $FileName$:$FileNameWithoutExtension$.css
+```
+
+### js 统一配置成.min.js后缀
+
+
+## 编辑器配置
+ 
 ### phpstorm sass配置
  
 首先安装ruby
