@@ -2,6 +2,14 @@
 
 ## 发布版本配置
 
+### uglify mini scopes配置
+
+配置pattern
+
+```
+file:*.js&&!file:*.min.js&&!file:*.pack.js
+```
+
 ### sass去除sourcemap调试
 
 配置arguments
